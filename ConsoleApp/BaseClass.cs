@@ -1,11 +1,11 @@
 ﻿namespace ConsoleApp;
 
-public class BaseClass
+public abstract class BaseClass
 {
 	public string GetName()
 	{
 		return "BaseClass";
 	}
 
-    public virtual
+	public abstract string GetName1();
 }
