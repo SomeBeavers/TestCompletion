@@ -13,9 +13,12 @@ public static class Extensions{
 
 // TODO: test
 internal class Use{
-	public void Test()
+	public void Test(Enum @enum, List<NewElement> list)
 	{
-		new BaseClassImpl().GetName();
+        foreach (i in list)
 	}
 }
 
+enum Enum{
+    A, B, C
+}
