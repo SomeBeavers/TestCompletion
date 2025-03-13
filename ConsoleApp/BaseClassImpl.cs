@@ -20,13 +20,22 @@ public static class Extensions{
 internal class Use{
 	public void Test(Enum @enum, List<NewElement> list)
 	{
-        // foreach (var i in list){
-        //     i.GetName1();
-        //     i.GetName1();
-        // }
+        foreach (var i in list)
+        {
+            i.GetName1();
+            i.GetName1();
+        }
 
+    }
+
+}
+
+internal class NewElement
+{
+	public void GetName1(dynamic d)
+	{
+		throw new NotImplementedException();
 	}
-
 }
 
 enum Enum{
