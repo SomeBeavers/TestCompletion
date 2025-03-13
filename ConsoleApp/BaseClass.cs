@@ -6,4 +6,6 @@ public class BaseClass
 	{
 		return "BaseClass";
 	}
+
+    public virtual
 }

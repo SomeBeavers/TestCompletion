@@ -15,8 +15,13 @@ public static class Extensions{
 internal class Use{
 	public void Test(Enum @enum, List<NewElement> list)
 	{
-        foreach (i in list)
+        // foreach (var i in list){
+        //     i.GetName1();
+        //     i.GetName1();
+        // }
+
 	}
+
 }
 
 enum Enum{
