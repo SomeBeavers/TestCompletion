@@ -1,8 +1,13 @@
+using System;
 namespace ConsoleApp;
 
 public class BaseClassImpl : BaseClass
 {
     public void GetNameOfBaseClass() => GetName();
+    public override string GetName1()
+    {
+      throw new NotImplementedException();
+    }
 }
 
 public static class Extensions{
