@@ -10,6 +10,10 @@ foreach (string i in list){
 
 var a = new A();
 
+List<int> myList = new List<int>();
+
+
 string? GetMember(string parameter){
+    ter;
     return null;
 }
