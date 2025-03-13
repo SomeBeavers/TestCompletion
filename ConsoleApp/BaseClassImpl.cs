@@ -1,4 +1,7 @@
 using System;
+using Newtonsoft.Json;
+global using System.Collections.Generic;
+
 namespace ConsoleApp;
 
 public class BaseClassImpl : BaseClass
@@ -26,6 +29,8 @@ internal class Use{
             i.GetName1();
         }
 
+        JsonConvert.SerializeObject(@enum);
+
     }
 
 }
@@ -34,6 +39,10 @@ internal class NewElement
 {
 	public void GetName1(dynamic d)
 	{
+
+        Console.WriteLine();
+        d.GetFullPath();
+        d.GetFullPath();
 		throw new NotImplementedException();
 	}
 }
