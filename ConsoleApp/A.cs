@@ -20,11 +20,5 @@
 	public class Logger
 	{
 		private readonly int a;
-		public Logger(int a)
-		{
-			this.a = a;
-			
-		}
-		
 	}
 }
